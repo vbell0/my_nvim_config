@@ -1,4 +1,11 @@
 require('lualine').setup({
-    options = {theme = 'tokyonight'}
+    options = {
+      icons_enabled = true,
+      theme = 'auto',
+      section_separators = '', 
+      component_separators = ''
+    },
+    tabline = {},
+    extensions = {}
   }
 )
