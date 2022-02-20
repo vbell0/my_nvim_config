@@ -5,4 +5,7 @@ require('configs.lua-line')
 require('configs.bufferline')
 require('configs.nvim-tree')
 require('configs.autopairs')
+require('configs.lsp-server')
+require('configs.telescope')
+require('configs.which-keys')
 

@@ -1,39 +1,41 @@
+local opt = vim.o
 -- Theme
 vim.cmd[[colorscheme tokyonight]]
+vim.g.mapleader = ' '
 
--- Options For Scrat
+-- Options
 vim.cmd[[filetype plugin indent on]]
-vim.o.shortmess = vim.o.shortmess .. 'c'
-vim.o.hidden = true
-vim.o.whichwrap = 'b,s,<,>,[,],h,l'
-vim.o.pumheight = 10
-vim.o.fileencoding = 'utf-8'
-vim.o.cmdheight = 2
-vim.o.splitbelow = true
-vim.o.splitright = true
+opt.shortmess = vim.o.shortmess .. 'c'
+opt.hidden = true
+opt.whichwrap = 'b,s,<,>,[,],h,l'
+opt.pumheight = 10
+opt.fileencoding = 'utf-8'
+opt.cmdheight = 2
+opt.splitbelow = true
+opt.splitright = true
 vim.opt.termguicolors = true
 vim.conxeallevel = 0
-vim.o.showtabline = 2
-vim.o.showmode = false
-vim.o.backup = false
-vim.o.writebackup = false
-vim.o.updatetime = 300
-vim.o.clipboard = 'unnamedplus'
-vim.o.hlsearch = false
-vim.o.ignorecase = true
-vim.o.scrolloff = 3
-vim.o.sidescrolloff = 5
-vim.o.mouse = 'a'
+opt.showtabline = 2
+opt.showmode = false
+opt.backup = false
+opt.writebackup = false
+opt.updatetime = 300
+opt.clipboard = 'unnamedplus'
+opt.hlsearch = false
+opt.ignorecase = true
+opt.scrolloff = 3
+opt.sidescrolloff = 5
+opt.mouse = 'a'
 vim.wo.wrap = false
 vim.wo.number = true
-vim.o.cursorline = true
+opt.cursorline = true
 vim.wo.signcolumn = 'yes'
-vim.o.tabstop = 2
+opt.tabstop = 2
 vim.bo.tabstop = 2
-vim.o.softtabstop = 2
-vim.o.shiftwidth = 2
+opt.softtabstop = 2
+opt.shiftwidth = 2
 vim.bo.shiftwidth = 2
-vim.o.autoindent = true
-vim.o.autoindent = true
-vim.o.expandtab = true
+opt.autoindent = true
+opt.autoindent = true
+opt.expandtab = true
 vim.bo.expandtab = true
